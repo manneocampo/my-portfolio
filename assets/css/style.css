@@ -1,3 +1,11 @@
+#nameTag {
+	padding: 0px 0px 0px 25px;	
+}
+
+#panelHeader {
+	color: #72767e;
+}
+
 #bio-image {
 	max-width: 50%;
 	float: left;
@@ -16,5 +24,16 @@
     text-transform: uppercase;
     letter-spacing: .98px;
 }
+
+#footerText {
+	margin: 0px 0px 0px 25px;
+}
+
+#footerSize {
+	padding-top:0px;
+}
+
+
+
 
 
