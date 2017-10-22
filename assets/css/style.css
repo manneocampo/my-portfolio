@@ -9,6 +9,12 @@
 	justify-content: space-around;
 }
 
-
+#connect {
+	font-weight: 400;
+    font-size: 11.9px;
+    color: #72767e ;
+    text-transform: uppercase;
+    letter-spacing: .98px;
+}
 
 
