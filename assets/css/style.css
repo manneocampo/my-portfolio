@@ -11,6 +11,16 @@
 	float: left;
 	margin-right: 20px;
 }
+a span {
+  display: none;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+}
+
+a:hover span {
+  display: block;
+}
 
 .spaceAround {
 	display:flex;
