@@ -58,7 +58,7 @@ a:hover span {
 
 @media only screen and (max-width: 500px){
 	#nameTag {
-	padding: 0px 0px 0px 165px;
+	padding: 2px 0px 0px 165px;
 	line-height:25px;	
 	}
 }
