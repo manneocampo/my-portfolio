@@ -1,5 +1,5 @@
 #nameTag {
-	padding: 0px 0px 0px 25px;	
+	padding: 0px 0px 0px 15px;	
 }
 
 #panelHeader {
@@ -44,6 +44,17 @@ a:hover span {
 	padding-top:0px;
 }
 
+#trivia {
+	padding: 30px 50px;
+	height: 300px;
+	width:374px;
+}
+
+#hangman {
+	padding: 30px 50px;
+	height: 300px;
+	width:374px;
+}
 
 
 
