@@ -70,7 +70,15 @@
                       <label for="email">Email</label>
                     </div>
                   </div>
-               
+                    <div class="row">
+  
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+                 
                 </form>
               </div>
             </div>  
@@ -112,6 +120,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>            
     <script>
     $(".button-collapse").sideNav();
+
+
+    $('#textarea1').val('');
+    $('#textarea1').trigger('autoresize');
     </script>
 </body>
 </html>
