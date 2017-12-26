@@ -7,12 +7,12 @@
 
     <!--favicon-->
     <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32" />
-    
+
     <!--Materialize CDN Link--> <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    
+
   <!--stylesheet link-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -43,70 +43,77 @@
       <div class="col m8 s12">
           <section class="collection with-header" id="main-bio">
             <div class="collection-header" id="panelHeader">
-                  <h2>Contact</h2>
-            </div>      
-          
+              <h2>Contact</h2>
+            </div>
+
             <div class="divider">
             <hr></hr>
             </div>
-              
-            <div class="collection-item"> 
+
+            <div class="collection-item">
               <div class="row">
-                <form class="col s12">
+                <form class="col s12" method="POST" action="http://formspree.io/manneocampo@gmail.com">
                   <div class="row">
                     <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate">
+                      <input id="first_name" type="text" class="validate" name="firstname">
                       <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
+                      <input id="last_name" type="text" class="validate" name="lastname">
                       <label for="last_name">Last Name</label>
                     </div>
                   </div>
-               
+
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
+                      <input id="email" type="email" class="validate" name="email">
                       <label for="email">Email</label>
                     </div>
                   </div>
                     <div class="row">
-  
+
                   <div class="row">
                     <div class="input-field col s12">
-                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
                       <label for="textarea1">Message</label>
                     </div>
                   </div>
 
-                  <button class="btn waves-effect waves-light" type="submit" name="action" action="mailto:manneocampo@gmail.com">Submit >
+                  <button class="btn waves-effect waves-light" type="submit">Submit >
+                    <!--  was inside button tag above name="action" action="mailto:manneocampo@gmail.com" -->
                     <i class="material-icons right"></i>
                   </button>
-                 
+
+                  <!-- <form method="POST" action="http://formspree.io/manneocampo@gmail.com"> -->
+                    <!-- <input type="email" name="email" placeholder="Your email"> -->
+                    <!-- <textarea name="message" placeholder="Your message"></textarea>
+                    <button type="submit">Send</button> -->
+                  <!-- </form> -->
+
                 </form>
               </div>
-            </div>  
+            </div>
           </section>
       </div>
-    
+
       <div class="col m4 s12">
           <section class="collection with-header" id="connect-with-me">
-            <div class="collection-header"> 
+            <div class="collection-header">
                 <h5 class="center" id="connect">connect with me</h5>
 
               <div class="divider-side">
               <hr></hr>
               </div>
-              <div class="spaceAround"> 
+              <div class="spaceAround">
                 <a href="https://github.com/manneocampo" target="_blank"><img src="assets/images/github.png" height="50px" width="50px" alt="GitHub"></a>
 
                 <a href="https://www.linkedin.com/in/michelle-ocampo-218734aa/" target="_blank"><img src="assets/images/linkedin.png" height="50px" width="50px" alt="Linkedin"></a>
-                
+
                 <a href="https://stackoverflow.com/users/8191297/michelle-ocampo" target="_blank"><img src="assets/images/stackoverflow.png" height="50px" width="50px" alt="Stack Overflow"></a>
-              </div> 
+              </div>
           </div>
           </section>
-      </div> 
+      </div>
 </div>
 
 
@@ -117,11 +124,11 @@
           </div>
         </div>
   </footer>
-            
+
 <!--Link to jQuery CDN -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>            
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
     $(".button-collapse").sideNav();
 
