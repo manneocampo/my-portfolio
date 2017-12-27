@@ -1,5 +1,5 @@
 #nameTag {
-	padding: 0px 0px 0px 15px;	
+	padding: 0px 0px 0px 15px;
 }
 
 #panelHeader {
@@ -44,6 +44,13 @@ a:hover span {
 	padding-top:0px;
 }
 
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
 #trivia {
 	padding: 30px 50px;
 	height: 300px;
@@ -59,10 +66,6 @@ a:hover span {
 @media only screen and (max-width: 500px){
 	#nameTag {
 	padding: 2px 0px 0px 165px;
-	line-height:25px;	
+	line-height:25px;
 	}
 }
-
-
-
-
