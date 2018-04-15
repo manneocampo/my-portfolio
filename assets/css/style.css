@@ -51,17 +51,7 @@ a:hover span {
   height: 50px;
 }
 
-#trivia {
-	padding: 30px 50px;
-	height: 300px;
-	width:374px;
-}
 
-#hangman {
-	padding: 30px 50px;
-	height: 300px;
-	width:374px;
-}
 
 @media only screen and (max-width: 500px){
 	#nameTag {

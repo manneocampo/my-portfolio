@@ -22,20 +22,20 @@
 
   <div class="row">
     <nav>
-        <div class="nav-wrapper blue lighten-2">
-          <a href="#" class="brand-logo" id="nameTag">Michelle Ocampo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+      <div class="nav-wrapper blue lighten-2">
+        <a href="#" class="brand-logo" id="nameTag">Michelle Ocampo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul id="slide-out" class="side-nav">
+            <li><a href="index.html" class="active"><i class="material-icons">home</i></a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <ul id="slide-out" class="side-nav">
-              <li><a href="index.html" class="active"><i class="material-icons">home</i></a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
     </nav>
   </div>
 <div class="container content">
@@ -53,15 +53,75 @@
             <div class="collection-item">
               <div class="row">
                 <div class="col s12 m6">
-                  <div class="card" style="text-align: center">
-                    <img class="activator"  id="project1" src="assets/images/project1.png" alt="app pic">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                      <img class="activator"  id="successdashboard" src="assets/images/successdashboard.png" alt="app pic">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Success Dashboard<i class="material-icons right">more_vert</i></span>
+                      <p><a href="http://success-dashboard.herokuapp.com/" target="_blank">View Project</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Success Dashboard<i class="material-icons right">close</i></span>
+                      <p>A one stop shop for tracking their to-do’s and notes as the user progresses through a program, while always providing
+                        something new to learn whether it be from our built-in trivia to a tech news article. Relevant local Meetups will be displayed
+                        and they will have access to positive news for the day to stay encouraged.
+                      </p>
+                      <p>On a team of two, we both worked as full-stack developers, working evenly on each of the components, the design and functionality
+                        of the app. To test login: (login: test, password: test)
+                      </p>
+
+                      <p>This project utilizes React.js, Materialize, Material-UI, Express.js, Node.js, MongoDB, mongoose, axios, request, body-parser,
+                        Passport, git version control, Balsamiq, Heroku.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m6">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                        <img class="activator center"  id="santashelper" src="assets/images/santashelper.png" alt="app pic">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Santa's Helper<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://guarded-journey-65332.herokuapp.com/" target="_blank">View Project</a></p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Santa's Helper<i class="material-icons right">close</i></span>
+                        <p>An app that incentivizes children to stay on Santa’s Nice List while parents get to tailor specific
+                          goals and get insight into their child’s wish list.
+                        </p>
+                        Worked as a full-stack developer on a team who was responsible for contributing to the design, style, frontend,
+                        backend and setting up passport authentication. To test login: (login: demo@gmail.com, password: demotest)
+                        </p>
+
+                        <p>This project utilizes HTML5, CSS3, Bootstrap, JavaScript, Node, Express, MySQL, Sequelize, MVC paradigm, Handlebars.js,
+                          git version control, Passport, Heroku.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                      <img class="activator"  id="project1" src="assets/images/project1.png" alt="app pic">
+                    </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">Durham Youth Connect<i class="material-icons right">more_vert</i></span>
                       <p><a href="http://michelleanneocampo.com/Durham-Youth-Connect/" target="_blank">View Project</a></p>
                     </div>
                     <div class="card-reveal">
                       <span class="card-title grey-text text-darken-4">Durham-Youth-Connect<i class="material-icons right">close</i></span>
-                      <p>Provide Durham youth with a tailored resource for researching job opportunities and exploring new careers and interests. Visitors will be asked to select from a variety of topics that interest them, and we will return relevant job opportunities, Meetup groups and public events that will help them network and discover new interests. We will also reference other local organizations that would be of interest and whose missions align well with ours.</p>
+                      <p>Provide Durham youth with a tailored resource for researching job opportunities and exploring new careers and interests.
+                        Visitors will be asked to select from a variety of topics that interest them, and we will return relevant job opportunities,
+                        Meetup groups and public events that will help them network and discover new interests. We will also reference other local organizations
+                        that would be of interest and whose missions align well with ours.
+                      </p>
 
                       <p>This project utilizes HTML5, CSS3, Materialize, JavaScript, jQuery, APIs, Firebase, git version control.</p>
                     </div>
@@ -69,15 +129,19 @@
                 </div>
 
                 <div class="col s12 m6">
-                  <div class="card" style="text-align: center">
-                    <img class="activator center"  id="potionGame" src="assets/images/potiongame2.png" alt="app pic">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                      <img class="activator center"  id="potionGame" src="assets/images/potiongame2.png" alt="app pic">
+                    </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">Number Matching Game<i class="material-icons right">more_vert</i></span>
                       <p><a href="http://michelleanneocampo.com/potion-game/" target="_blank">View Project</a></p>
                     </div>
                     <div class="card-reveal">
                       <span class="card-title grey-text text-darken-4">Harry Potter Number Matching Potion Game<i class="material-icons right">close</i></span>
-                      <p>This project is the first project introducing jQuery. This project explores the basic concepts of DOM manipulation, on-click events, and basic GUI building, and deepening an understanding of JavaScript scope.</p>
+                      <p>This project is the first project introducing jQuery. This project explores the basic concepts of DOM manipulation, on-click events,
+                        and basic GUI building, and deepening an understanding of JavaScript scope.
+                      </p>
 
                       <p>This project utilizes HTML5, CSS3, Bootstrap, JavaScript, jQuery.</p>
                     </div>
@@ -89,9 +153,10 @@
               <div class="row">
 
                 <div class="col s12 m6">
-                  <div class="card" style="text-align: center">
-
-                    <img class="activator" id="trivia" src="assets/images/trivia2.png" alt="app pic">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                      <img class="activator" id="trivia" src="assets/images/trivia.png" alt="app pic">
+                    </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">Trivia Game<i class="material-icons right">more_vert</i></span>
                       <p><a href="http://michelleanneocampo.com/TriviaGame/" target="_blank">View Project</a></p>
@@ -106,8 +171,10 @@
                 </div>
 
                 <div class="col s12 m6">
-                  <div class="card" style="text-align: center">
-                    <img class="activator" id="hangman" src="assets/images/hangman2.png" alt="app pic">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light" style="text-align: center">
+                      <img class="activator" id="hangman" src="assets/images/hangman2.png" alt="app pic">
+                    </div>
                     <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">Hangman Game<i class="material-icons right">more_vert</i></span>
                       <p><a href="http://michelleanneocampo.com/Hangman-Game/" target="_blank">View Project</a></p>
